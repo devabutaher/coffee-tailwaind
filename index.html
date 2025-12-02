@@ -1,27 +1,49 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet">
-    <title>Coffee</title>
-  </head>
-  <body class="font-poppins">
-    <header class="bg-[#3b141c]">
-      <div class="max-w-4xl mx-auto h-screen p-4">
-        <nav class="flex gap-4 justify-between items-center text-white">
-          <h1 class="font-poppins text-xl font-semibold">☕ Coffee</h1>
-          <div class="space-x-6 text-xs tracking-widest">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Menu</a>
-            <a href="#">Testimonial</a>
-            <a href="#">Gallery</a>
-            <a href="#">Contact</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet">
+  <title>Coffee</title>
+</head>
+
+<body class="font-poppins">
+  <header class="bg-[#3b141c]">
+    <section class="max-w-4xl mx-auto h-screen p-4">
+
+      <nav class="flex gap-4 justify-between items-center text-white">
+        <h1 class="font-poppins text-xl font-semibold">☕ Coffee</h1>
+        <div class="space-x-4 text-xs tracking-widest">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Menu</a>
+          <a href="#">Testimonial</a>
+          <a href="#">Gallery</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+
+      <div class="flex items-center justify-between gap-4">
+        <div class="text-white py-40 flex flex-col items-start gap-4">
+          <h2 class="font-miniver text-amber-500 text-2xl">Best Coffee</h2>
+          <p class="text-xl/8 font-semibold">Make your day great with our special coffee!</>
+          <p class="text-sm/6">Welcome to our coffee paradise where every bean tells
+            a story and every cup sparks joy.</p>
+          <div class="text-sm flex gap-4">
+            <button class="bg-amber-500 text-black hover:text-white px-4 py-2 rounded-full hover:bg-transparent border border-amber-500 transition-all duration-200 ease-in cursor-pointer">Order Now</button>
+            <button class="hover:bg-amber-500 hover:text-black px-4 py-2 rounded-full border border-amber-500 transition-all duration-200 ease-in cursor-pointer">Contact Us</button>
           </div>
-        </nav>
+        </div>
+
+        <div>
+          <img src="/images/coffee-hero-section.png" alt="coffee cup">
+        </div>
       </div>
-    </header>
-  </body>
+
+    </section>
+  </header>
+</body>
+
 </html>
